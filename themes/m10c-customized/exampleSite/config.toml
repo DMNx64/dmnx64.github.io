@@ -1,20 +1,38 @@
-baseURL = 'https://dmnx64.github.io'
-languageCode = 'en-us'
-title = 'Blog'
-theme = "m10c-customized"
+baseURL = "https://example.com"
+title = "Your title"
+themesDir = "../.."
+theme = "m10c"
+paginate = 8
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 2
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 3
 
 [params]
-  author = "dmnx64"
-  description = "My personal notes"
+  author = "John Doe"
+  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
   menu_item_separator = " - "
   [[params.social]]
     icon = "github"
     name = "Github"
-    url = "https://github.com/dmnx64"
+    url = "https://github.com/gohugoio"
   [[params.social]]
     icon = "twitter"
     name = "Twitter"
-    url = "https://twitter.com/dmnx64"
+    url = "https://twitter.com/gohugoio"
 
   # Default theme
   #[params.style]
