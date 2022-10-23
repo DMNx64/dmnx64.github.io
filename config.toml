@@ -1,12 +1,13 @@
 baseURL = 'https://dmnx64.github.io'
 languageCode = 'en-us'
 title = 'DMNx64'
-theme = "m10c-customized"
+theme = "coder-customized"
 
 [params]
   author = "dmnx64"
   description = "My personal notes"
   menu_item_separator = " - "
+  colorScheme = "dark"
   [[params.social]]
     icon = "github"
     name = "Github"
